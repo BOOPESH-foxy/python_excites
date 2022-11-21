@@ -4,9 +4,9 @@ MailServer = smtplib.SMTP("smtp.gmail.com",465)
 
 MailServer.starttls()
 
-MailStatus = MailServer.login("krishkalam2000@gmail.com","krishnapriyan123*")
+MailServer.login("************@gmail.com","***********")
 
-MailServer.sendmail("krishkalam2000@gmail.com","krishkalam2000@gmail.com","Hi this is boo !")
+MailStatus = MailServer.sendmail("**********0@gmail.com","*******@gmail.com","Hi this is boo !")
 
 if (MailStatus):
     print("Mail sent!")
